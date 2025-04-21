@@ -1,30 +1,20 @@
 classdef ThemeColors
     properties (Constant)
-        % Light theme
-        Light = struct( ...
-            'Background', [0.98 0.98 0.97], ...     % soft warm white
-            'Primary', [0.42 0.76 0.85], ...        % soft blue
-            'Accent', [0.99 0.73 0.55], ...         % gentle coral
-            'Text', [0.1 0.1 0.1], ...              % dark gray
-            'Border', [0.85 0.85 0.85] ...          % light gray
-        );
+        Light = struct("Background", [1 1 1], "Text", [0 0 0], "Primary", [0.2 0.6 1], "Accent", [1 0.5 0]);
+        Dark  = struct("Background", [0.1 0.1 0.1], "Text", [1 1 1], "Primary", [0.3 0.7 0.3], "Accent", [1 0.2 0.2]);
+    end
 
-        % Dark theme
-        Dark = struct( ...
-            'Background', [0.11 0.13 0.15], ...     % slate black
-            'Primary', [0.32 0.84 0.90], ...        % vibrant cyan
-            'Accent', [1.00 0.71 0.36], ...         % warm amber
-            'Text', [0.95 0.95 0.95], ...           % light gray
-            'Border', [0.25 0.25 0.25] ...          % dark gray
-        );
-
-        % Grayscale theme
-        Grayscale = struct( ...
-            'Background', [0.95 0.95 0.95], ...     % light gray
-            'Primary', [0.75 0.75 0.75], ...        % medium gray
-            'Accent', [0.45 0.45 0.45], ...         % darker gray
-            'Text', [0.1 0.1 0.1], ...              % dark text
-            'Border', [0.7 0.7 0.7] ...             % subtle gray
-        );
+    methods (Static)
+        function theme = get(name)
+            switch lower(name)
+                case "light"
+                    theme = ThemeColors.Light;
+                case "dark"
+                    theme = ThemeColors.Dark;
+                otherwise
+                    warning("Unknown theme '%s'. Falling back to Light.", name);
+                    theme = ThemeColors.Light;
+            end
+        end
     end
 end

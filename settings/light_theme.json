@@ -1,0 +1,1 @@
+{"DataInput":{"DefaultPath":"","BatchMode":false},"Visualization":{"SegmentLength":10,"SegmentStart":0},"Detection":{"Threshold":0.5,"MinDuration":0.01},"Export":{"ExportPath":""},"Other":{"ThemeName":"Light"}}
