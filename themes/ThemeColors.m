@@ -17,5 +17,14 @@ classdef ThemeColors
             'Text', [0.95 0.95 0.95], ...           % light gray
             'Border', [0.25 0.25 0.25] ...          % dark gray
         );
+
+        % Grayscale theme
+        Grayscale = struct( ...
+            'Background', [0.95 0.95 0.95], ...     % light gray
+            'Primary', [0.75 0.75 0.75], ...        % medium gray
+            'Accent', [0.45 0.45 0.45], ...         % darker gray
+            'Text', [0.1 0.1 0.1], ...              % dark text
+            'Border', [0.7 0.7 0.7] ...             % subtle gray
+        );
     end
 end
