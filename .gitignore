@@ -1,0 +1,11 @@
+data/example/batch/referenceLabels/LPS-SI2homo-mH02-I04-USV-IVojt.txt
+data/example/batch/USVs/LPS-SI2homo-mH02-I04-USV_denoise.wav
+data/example/batch/videos/LPS-SI2homo-mH02-I04-USV_sonifikace.mov
+data/example/single/LPS-SI2homo-mH02-I04-USV-IVojt.txt
+data/example/single/LPS-SI2homo-mH02-I04-USV_denoise.wav
+data/example/single/LPS-SI2homo-mH02-I04-USV_detected.txt
+data/example/single/LPS-SI2homo-mH02-I04-USV_sonifikace.mov
+data/example/batch/labels/LPS-SI2homo-mH02-I04-USV_detected.txt
+data/example/.DS_Store
+data/example/batch/.DS_Store
+data/example/.DS_Store
