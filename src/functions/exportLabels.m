@@ -1,8 +1,17 @@
 function exportLabels(labels, filePath)
     fid = fopen(filePath, 'w');
+    if fid == -1
+        error("Could not open file %s for writing.", filePath);
+    end
+
     for i = 1:length(labels)
-        fprintf(fid, '%.6f\t%.6f\td\n', labels(i).StartTime, labels(i).EndTime);
-        fprintf(fid, '\\\t0.000000\t0.000000\n');
+        % Write time and label line
+        fprintf(fid, '%.6f\t%.6f\t%s\n', ...
+            labels(i).StartTime, labels(i).EndTime, labels(i).Label);
+        
+        % Write frequency line
+        fprintf(fid, '\\\t%.6f\t%.6f\n', ...
+            labels(i).StartFrequency, labels(i).EndFrequency);
     end
     fclose(fid);
 end
