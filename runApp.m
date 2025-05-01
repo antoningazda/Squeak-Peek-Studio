@@ -1,2 +1,5 @@
 clc;clear;close all;
-app = SqueakPeekStudio;
+
+
+
+app = SqueakPeekStudio; 
