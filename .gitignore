@@ -9,3 +9,4 @@ data/example/batch/labels/LPS-SI2homo-mH02-I04-USV_detected.txt
 data/example/.DS_Store
 data/example/batch/.DS_Store
 data/example/.DS_Store
+data/example/batch/USVs/LPS-SI2homo-mK01-L03-USV_denoise.wav
