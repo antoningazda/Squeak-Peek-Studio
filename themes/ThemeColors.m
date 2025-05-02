@@ -7,7 +7,12 @@ Light = struct( ...
     "Accent", [249/255, 192/255, 110/255] ...          % brighter orange-yellow
 );
 
-Dark  = struct("Background", [0.1 0.1 0.1], "Text", [1 1 1], "Primary", [0.3 0.7 0.3], "Accent", [1 0.2 0.2]);
+Dark = struct( ...
+    "Background", [0.07, 0.07, 0.07], ...                % deep dark gray
+    "Text", [0.95, 0.95, 0.95], ...                      % light text
+    "Primary", [72/255, 175/255, 179/255], ...           % muted teal (dark mode safe)
+    "Accent", [255/255, 171/255, 64/255] ...             % warm amber accent
+);
     end
 
     methods (Static)
