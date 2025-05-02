@@ -40,6 +40,7 @@ addParameter(p, 'noiseWindow', 240, @isnumeric);
 addParameter(p, 'localWindow', 194, @isnumeric);
 addParameter(p, 'k', 0.023, @isnumeric);
 addParameter(p, 'w', 0.994, @isnumeric);
+addParameter(p, 'minEffectivePower', 0.00085, @isnumeric);
 
 parse(p, x, fs, varargin{:});
 opts = p.Results;
@@ -104,5 +105,15 @@ for i = 1:n
     detectedLabels(i).StartIndex    = starts(i);
     detectedLabels(i).StopIndex     = ends(i);
 end
+
+% === MINIMUM POWER FILTER ===
+filtered = [];
+for i = 1:n
+    idxRange = starts(i):ends(i);
+    if mean(effectiveEnvelope(idxRange)) >= opts.minEffectivePower
+        filtered = [filtered, detectedLabels(i)];
+    end
+end
+detectedLabels = filtered;
 
 end
