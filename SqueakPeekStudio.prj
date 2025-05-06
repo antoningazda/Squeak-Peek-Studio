@@ -1,15 +1,19 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2152080490" file="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/SqueakPeekStudio.prj" location="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="SqueakPeekStudio" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2566609095" file="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/SqueakPeekStudio.prj" location="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="SqueakPeekStudio" target="target.mlapps" target-name="Package App">
     <param.appname>SqueakPeekStudio</param.appname>
     <param.authnamewatermark>Antonín Gazda</param.authnamewatermark>
     <param.email />
     <param.company />
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}/SqueakPeekStudio_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/SqueakPeekStudio_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/SqueakPeekStudio_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/SqueakPeekStudio_resources/icon_16.png</file>
+    </param.icons>
     <param.summary />
     <param.description />
-    <param.screenshot>/private/var/folders/yb/r25cx4r12q97k_5cy5c1swvh0000gn/T/tpcda7f87b_0392_4147_96dc_cd8b4c8c65ec.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot>/private/var/folders/yb/r25cx4r12q97k_5cy5c1swvh0000gn/T/tp9a53018d_c6dd_45a8_8035_e540a8841238.png</param.screenshot>
+    <param.version>1.3</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -19,11 +23,8 @@
     <unset>
       <param.email />
       <param.company />
-      <param.icon />
-      <param.icons />
       <param.summary />
       <param.description />
-      <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -33,7 +34,23 @@
     <fileset.main>
       <file>${PROJECT_ROOT}/SqueakPeekStudio.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/assets/logo/fee_logo.jpg</file>
+      <file>${PROJECT_ROOT}/assets/logo/nimh_logo.png</file>
+      <file>${PROJECT_ROOT}/assets/logo/squeakpeak_logo.png</file>
+      <file>${PROJECT_ROOT}/src/functions/BSCDDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/PSDDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/RBD.m</file>
+      <file>${PROJECT_ROOT}/src/functions/bscd.m</file>
+      <file>${PROJECT_ROOT}/src/functions/compareLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/exportLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/exportLabelsDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/importLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/mergeCloseLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/removeShortLabels.m</file>
+      <file>${PROJECT_ROOT}/src/settings/saveSettingsToFile.m</file>
+      <file>${PROJECT_ROOT}/themes/ThemeColors.m</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
