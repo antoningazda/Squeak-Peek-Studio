@@ -62,6 +62,15 @@ else
     tROI = t_full(idx1:idx2);
 end
 
+% Bandpass filter to remove anything below 40 kHz
+            bpFilt = designfilt('bandpassiir', ...
+                'FilterOrder', 12, ...
+                'HalfPowerFrequency1', opts.fcutMin, ...
+                'HalfPowerFrequency2', opts.fcutMax, ...
+                'SampleRate', fs);
+
+            xROI = filtfilt(bpFilt, xROI);  % Zero-phase filtering to preserve transients
+
 % PSD
 nfft = opts.segmentLength;
 window = hamming(opts.segmentLength);
