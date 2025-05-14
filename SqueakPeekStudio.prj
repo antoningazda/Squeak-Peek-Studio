@@ -1,8 +1,8 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2566609095" file="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/SqueakPeekStudio.prj" location="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="SqueakPeekStudio" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="715492702" file="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/SqueakPeekStudio.prj" location="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="SqueakPeekStudio" target="target.mlapps" target-name="Package App">
     <param.appname>SqueakPeekStudio</param.appname>
     <param.authnamewatermark>Antonín Gazda</param.authnamewatermark>
-    <param.email />
+    <param.email>me@antoningazda.com</param.email>
     <param.company />
     <param.icon>${PROJECT_ROOT}/SqueakPeekStudio_resources/icon_24.png</param.icon>
     <param.icons>
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary />
     <param.description />
-    <param.screenshot>/private/var/folders/yb/r25cx4r12q97k_5cy5c1swvh0000gn/T/tp9a53018d_c6dd_45a8_8035_e540a8841238.png</param.screenshot>
-    <param.version>1.3</param.version>
+    <param.screenshot>/private/var/folders/yb/r25cx4r12q97k_5cy5c1swvh0000gn/T/tp2907622a_9713_4360_ab3e_7a36fa729ab3.png</param.screenshot>
+    <param.version>1.4</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -21,7 +21,6 @@
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>8a415418-9b09-4596-a147-25b893a1bc21</param.guid>
     <unset>
-      <param.email />
       <param.company />
       <param.summary />
       <param.description />
@@ -54,7 +53,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng" name="Squeak-Peak-Studio" optional="false">/Users/gazda/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio</file>
+      <file location="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng" name="Squeak-Peak-Studio" optional="false">/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio</file>
     </build-deliverables>
     <workflow />
     <matlab>
