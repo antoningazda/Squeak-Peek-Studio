@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="715492702" file="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/SqueakPeekStudio.prj" location="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="SqueakPeekStudio" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1013003739" file="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/SqueakPeekStudio.prj" location="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="SqueakPeekStudio" target="target.mlapps" target-name="Package App">
     <param.appname>SqueakPeekStudio</param.appname>
     <param.authnamewatermark>Antonín Gazda</param.authnamewatermark>
     <param.email>me@antoningazda.com</param.email>
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary />
     <param.description />
-    <param.screenshot>/private/var/folders/yb/r25cx4r12q97k_5cy5c1swvh0000gn/T/tp2907622a_9713_4360_ab3e_7a36fa729ab3.png</param.screenshot>
+    <param.screenshot>/private/var/folders/yb/r25cx4r12q97k_5cy5c1swvh0000gn/T/tp3c79d3c2_b712_4dd4_b901_72fcfb9002e9.png</param.screenshot>
     <param.version>1.4</param.version>
     <param.products.name />
     <param.products.id />
