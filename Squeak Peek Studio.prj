@@ -1,0 +1,94 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2221620851" file="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio/Squeak Peek Studio.prj" location="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio" name="Squeak Peek Studio" target="target.mlapps" target-name="Package App">
+    <param.appname>Squeak Peek Studio</param.appname>
+    <param.authnamewatermark>Antonín Gazda</param.authnamewatermark>
+    <param.email>me@antoningazda.com</param.email>
+    <param.company>CTU FEE</param.company>
+    <param.icon>${PROJECT_ROOT}/Squeak Peek Studio_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/Squeak Peek Studio_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Squeak Peek Studio_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Squeak Peek Studio_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Software for Visualization, Segmentation, and Sonification of Ultrasonic Vocalizations of Laboratory Rats</param.summary>
+    <param.description />
+    <param.screenshot>/Users/gazda/Downloads/Info.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Audio Toolbox</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>151</item>
+      <item>8</item>
+    </param.products.id>
+    <param.products.version>
+      <item>23.2</item>
+      <item>23.2</item>
+      <item>23.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>127275c4-bf9a-4f20-8b71-b64376ed65b3</param.guid>
+    <unset>
+      <param.description />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/SqueakPeekStudio.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/assets/logo/fee_logo.jpg</file>
+      <file>${PROJECT_ROOT}/assets/logo/nimh_logo.png</file>
+      <file>${PROJECT_ROOT}/assets/logo/squeakpeak_logo.png</file>
+      <file>${PROJECT_ROOT}/src/functions/BSCDDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/PSDDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/RBD.m</file>
+      <file>${PROJECT_ROOT}/src/functions/RBDDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/ThemeColors.m</file>
+      <file>${PROJECT_ROOT}/src/functions/bscd.m</file>
+      <file>${PROJECT_ROOT}/src/functions/compareLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/exportLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/exportLabelsDetector.m</file>
+      <file>${PROJECT_ROOT}/src/functions/importLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/mergeCloseLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/removeShortLabels.m</file>
+      <file>${PROJECT_ROOT}/src/functions/saveSettingsToFile.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng" name="Squeak-Peak-Studio" optional="false">/Users/gazda/Library/Mobile Documents/com~apple~CloudDocs/Documents/CTU/Masters/Masters thesis/RoadmapToIng/Squeak-Peak-Studio</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB/MATLAB_R2023b.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>15.3</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
